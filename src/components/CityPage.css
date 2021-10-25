@@ -1,0 +1,184 @@
+.CityPage{
+    width: 100%;
+    height: calc(100vh - 65px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(80.36% 80.36% at 50% 0%, #5A607C 0%, #161B30 100%);
+    font-family: SF Pro Display;
+    font-style: normal;
+}
+.CityPage__controls{
+    width: 100%;
+    height: 76px;
+    position: relative;
+}
+.CityPage__controls__back{
+    width: 81px;
+    height: 24px;
+    position: absolute;
+    left: 34px;
+    top: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #8A91AB;
+    cursor: pointer;
+}
+.CityPage__controls__back p{
+    width: 45px;
+    height: 18px;
+    margin: 3px 0px;
+}
+.CityPage__controls__back svg{
+    width: 9.9px;
+    height: 16.97px;
+    margin-left: 7.05px;
+    margin-right: 19.05px;
+}
+.CityPage__controls__favourite{
+    width: 14px;
+    height: 20px;
+    position: absolute;
+    right: 39px;
+    top: 26px;
+    cursor: pointer;
+}
+.CityPage__controls__favourite svg{
+    width: 100%;
+    height: 100%;
+}
+.CityPage__head{
+    width: 100%;
+    height: 62px;
+    margin: 0px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.CityPage__meteorological-values{
+    width: 100%;
+    height: 18px;
+    margin: 0px;
+    margin-bottom: 16px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.CityPage__weather{
+    width: 445px;
+    height: 191px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.CityPage__weather__temperature{
+    width: 254px;
+    height: 143.81px;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 129.755px;
+    line-height: 143.81px;
+    text-align: right;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to top, transparent, #FFFFFF);
+}
+.CityPage__weather__icon{
+    width: 191px;
+    height: 191px;
+}
+.CityPage__weather__icon svg{
+    width: 100%;
+    height: 100%;
+}
+.Clear{
+    background-position: left 25% top 10%;
+}
+.CityPage__pressure{
+    width: 50%;
+    height: 24px;
+    margin: 0px;
+    margin-bottom: 32px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.CityPage__pressure p{
+    width: 100px;
+    height: 19px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 9.2px;
+    text-align: left;
+}
+.CityPage__pressure > div{
+    width: 21.6px;
+    height: 21.6px;
+}
+.CityPage__pressure > div svg{
+    width: 100%;
+    height: 100%;
+}
+.CityPage__sunset{
+    width: 50%;
+    height: 18px;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #8A91AB;
+}
+@media only screen and (max-width: 1000px) {
+    .CityPage{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .CityPage__head{
+        height: 27px;
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+    .CityPage__meteorological-values{
+        height: 15px;
+        font-size: 14px;
+    }
+    .CityPage__weather{
+        width: 224px;
+        height: 265px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .CityPage__weather__icon{
+        width: 132px;
+        height: 132px;
+        /*background-image: url(../media/WeatherIcons.svg);*/
+        background-position: left 30% top 20%;
+    }
+    .CityPage__weather__temperature{
+        height: 133px;
+        font-size: 120px;
+    }
+    .CityPage__pressure{
+        margin-bottom: 42px;
+    }
+    .CityPage__pressure p{
+        height: 17px;
+        font-size: 14px;
+    }
+    .CityPage__controls__back p{
+        display: none;
+    }
+}

@@ -1,0 +1,80 @@
+.Logo{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 197px;
+    height: 65px;
+    padding: 23px;
+    left: 0px;
+    top: 0px;
+}
+.Logo p{
+    box-sizing: border-box;
+    position: static;
+    width: 109px;
+    height: 19px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+}
+.Logo__logo-image{
+    box-sizing: border-box;
+    position: static;
+    width: 30px;
+    height: 30px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 12px;
+}
+.Logo__rectangle-1{
+    position: absolute;
+    width: 13.36px;
+    height: 12.66px;
+    left: 23.74px;
+    top: 29.27px;
+    background-color: #FFFFFF;
+    box-shadow: inset -15.1508px 9.2588px 25.2513px #FFFFFF, inset 6.73367px -12.6256px 25.2513px rgba(0, 0, 0, 0.2);
+    border-radius: 88.8003px 88.8003px 88.8003px 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.Logo__rectangle-2{
+    position: absolute;
+    width: 19.25px;
+    height: 18.3px;
+    left: 33.28px;
+    top: 23.63px;
+    background-color: #FFFFFF;
+    box-shadow: inset -15.1508px 9.2588px 25.2513px #FFFFFF, inset 6.73367px -12.6256px 25.2513px rgba(0, 0, 0, 0.2);
+    border-radius: 88.8003px 88.8003px 88.8003px 0px;
+}
+.Logo__ellipse{
+    position: absolute;
+    width: 10.68px;
+    height: 10.68px;
+    left: 25.97px;
+    top: 21.93px;
+    background: radial-gradient(77.25% 77.25% at 69.89% 22.75%, #FFF72C 0%, #DF7800 100%);
+    border-radius: 50%;
+}
+.Logo__ellipse-2{
+    position: absolute;
+    width: 29.69px;
+    height: 21.95px;
+    left: 17px;
+    top: 21.5px;
+    background: linear-gradient(89.73deg, rgba(37, 70, 89, 0.3) 4.84%, rgba(2, 53, 83, 0.3) 109.55%);
+    opacity: 0.67;
+    filter: blur(37.8769px);
+    transform: rotate(-47.93deg);
+}

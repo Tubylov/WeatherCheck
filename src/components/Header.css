@@ -1,0 +1,13 @@
+header{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    background-color: #2A2F45;
+}
+@media only screen and (max-width: 1000px) {
+    header{
+        background-color: transparent;
+    }
+}
