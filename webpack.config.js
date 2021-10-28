@@ -9,8 +9,7 @@ module.exports = {
     mode: 'development',
     output: {
         path: path.resolve(__dirname, './production'),
-        filename: 'bundle.js',
-        publicPath: '/production'
+        filename: 'bundle.js'
     },
     resolve: {
         extensions: ['*', '.js', '.jsx']
